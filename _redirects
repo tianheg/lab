@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://tianheg-lab.netlify.app/* https://lab.yidajiabei.xyz/:splat 301!
