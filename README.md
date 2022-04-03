@@ -1,5 +1,17 @@
 # lab
 
+## Dependency
+
+```text
+main.js
+└─ App.vue
+     ├─ Sidebar.vue
+     └─ router/index.js
+          └─ Home.vue
+               └─ Work.vue
+                    └─ SingleWork.vue
+```
+
 ## 杭州互联网公司地图（2022.03.14 - now）
 
 [主页](https://tianheg.github.io/hangzhou-it-map/)，[仓库](https://github.com/tianheg/hangzhou-it-map)
