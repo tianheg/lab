@@ -3,6 +3,7 @@
     <i>
       <slot name="icon"></slot>
     </i>
+    <div class="time"><slot name="time"></slot></div>
     <div class="details">
       <h3>
         <slot name="heading"></slot>
@@ -18,6 +19,11 @@
   display: flex;
 }
 
+.time {
+  display: flex;
+  place-items: center;
+}
+
 .details {
   flex: 1;
   margin-left: 1rem;
@@ -28,7 +34,6 @@ i {
   place-items: center;
   place-content: center;
   width: 32px;
-  height: 32px;
 
   color: var(--color-text);
 }
@@ -81,6 +86,12 @@ h3 {
 
   .item:last-of-type:after {
     display: none;
+  }
+
+  .time {
+    width: 200px;
+    height: 20px;
+    top: 31px;
   }
 }
 </style>
