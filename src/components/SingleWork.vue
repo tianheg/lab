@@ -20,8 +20,7 @@
 }
 
 .time {
-  display: flex;
-  place-items: center;
+  display: none;
 }
 
 .details {
@@ -89,6 +88,8 @@ h3 {
   }
 
   .time {
+    display: flex;
+    place-items: center;
     width: 200px;
     height: 20px;
     top: 31px;
