@@ -22,6 +22,6 @@
     "vite": "^2.9.1"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx,json,md,scss}": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,scss}\""
+    "**/*.{js,jsx,vue,ts,tsx,json,md,scss}": "prettier --write \"**/*.{js,jsx,vue,ts,tsx,json,md,scss}\""
   }
 }
