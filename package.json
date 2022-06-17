@@ -10,16 +10,16 @@
     "format": "prettier --write"
   },
   "dependencies": {
-    "dayjs": "^1.11.0",
-    "vue": "^3.2.31",
-    "vue-router": "^4.0.14"
+    "dayjs": "^1.11.3",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.16"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.1",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.7",
-    "prettier": "2.6.1",
-    "vite": "^2.9.1"
+    "@vitejs/plugin-vue": "^2.3.3",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.2",
+    "prettier": "2.7.1",
+    "vite": "^2.9.12"
   },
   "lint-staged": {
     "**/*.{js,jsx,vue,ts,tsx,json,md,scss}": "prettier --write \"**/*.{js,jsx,vue,ts,tsx,json,md,scss}\""
